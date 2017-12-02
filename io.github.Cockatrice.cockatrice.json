@@ -46,7 +46,7 @@
       "sources": [
         {
           "type": "git",
-          "branch": "2017-05-05-Release-2.3.17",
+          "branch": "2017-11-19-Release-2.4.0",
           "url": "git://github.com/Cockatrice/Cockatrice.git"
         },
         {
