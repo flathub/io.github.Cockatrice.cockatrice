@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-	<id>io.github.Cockatrice.desktop</id>
+	<id>io.github.Cockatrice.cockatrice</id>
 	<name>Cockatrice</name>
 	<summary>A cross-platform virtual tabletop for multiplayer card games</summary>
 	<developer_name>Cockatrice Project</developer_name>
@@ -21,8 +21,6 @@
 	<url type="faq">https://github.com/Cockatrice/Cockatrice/wiki/Frequently-Asked-Questions</url>
 	<url type="help">https://github.com/Cockatrice/Cockatrice/wiki</url>
 	<url type="homepage">https://cockatrice.github.io/</url>
-	<!-- maybe include link to svg app icon here, too-->
-	<!-- change this to an upstream email address for spec updates
-	<update_contact>someone_who_cares@upstream_project.org</update_contact>
-	-->
+	<icon type="remote">https://github.com/Cockatrice/Cockatrice/blob/master/cockatrice/resources/cockatrice.svg</icon>
+	<launchable type="desktop-id">io.github.Cockatrice.cockatrice.desktop</launchable>
 </component>
