@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-	<id>io.github.Cockatrice.desktop</id>
+	<id>io.github.Cockatrice.cockatrice</id>
 	<name>Cockatrice</name>
 	<summary>A cross-platform virtual tabletop for multiplayer card games</summary>
 	<developer_name>Cockatrice Project</developer_name>
 	<description>
-	<p>
-	Cockatrice is an open-source multi-platform supported program for playing tabletop card games over a network. The program's server design prevents any kind of client modifications to gain an unfair advantage in a game. The client also has a built in single-player mode where you can create decks without being connected to a server.
-	</p>
+		<p>
+		Cockatrice is an open-source multi-platform supported program for playing tabletop card games over a network. 
+		The program's server design prevents any kind of client modifications to gain an unfair advantage in a game. 
+		The client also has a built in single-player mode where you can create decks without being connected to a server.
+		</p>
 	</description>
 	<keywords>
 		<keyword>game</keyword>
@@ -17,6 +19,6 @@
 	<project_license>GPL-2.0</project_license>
 	<url type="bugtracker">https://github.com/Cockatrice/Cockatrice/issues</url>
 	<url type="faq">https://github.com/Cockatrice/Cockatrice/wiki/Frequently-Asked-Questions</url>
-	<url type="help">https://github.com/Cockatrice/Cockatrice/issues</url>
+	<url type="help">https://github.com/Cockatrice/Cockatrice/wiki</url>
 	<url type="homepage">https://cockatrice.github.io/</url>
 </component>
