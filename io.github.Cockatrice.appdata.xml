@@ -21,4 +21,5 @@
 	<url type="faq">https://github.com/Cockatrice/Cockatrice/wiki/Frequently-Asked-Questions</url>
 	<url type="help">https://github.com/Cockatrice/Cockatrice/wiki</url>
 	<url type="homepage">https://cockatrice.github.io/</url>
+	<launchable type="desktop-id">io.github.Cockatrice.cockatrice.desktop</launchable>
 </component>
