@@ -2,7 +2,7 @@
 <component type="desktop">
 	<id>cockatrice.desktop</id>
 	<name>Cockatrice</name>
-	<summary>A cross-platform virtual tabletop for multiplayer card games</summary>
+	<summary>Virtual tabletop for multiplayer card games</summary>
 	<developer_name>Cockatrice Project</developer_name>
 	<description>
 		<p>
