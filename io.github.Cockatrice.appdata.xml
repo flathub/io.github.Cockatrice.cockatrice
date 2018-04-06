@@ -2,7 +2,7 @@
 <component type="desktop">
 	<id>cockatrice.desktop</id>
 	<name>Cockatrice</name>
-	<summary>Virtual tabletop for multiplayer card games</summary>
+	<summary>A cross-platform virtual tabletop for multiplayer card games</summary>
 	<developer_name>Cockatrice Project</developer_name>
 	<description>
 		<p>
@@ -15,6 +15,9 @@
 		<keyword>game</keyword>
 		<keyword>card</keyword>
 	</keywords>
+	<releases>
+		<release version="2.5.0" date="2018-03-02"/>
+	</releases>
 	<metadata_license>CC-BY-SA-3.0</metadata_license>
 	<project_license>GPL-2.0</project_license>
 	<url type="bugtracker">https://github.com/Cockatrice/Cockatrice/issues</url>
