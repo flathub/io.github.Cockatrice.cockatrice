@@ -11,5 +11,5 @@ If the <kbd>source</kbd> and <kbd>flathub</kbd> version do not match, please sen
 #### Useful links:
  - [Maintaining an application on flathub](https://github.com/flathub/flathub/wiki/Maintaining-an-application-on-flathub)
  - [Buildbot instance of flathub](https://flathub.org/builds)
- - [List of all available flatpak packages on flathub](https://flathub.org/apps.html)
+ - [Application details on flathub](https://flathub.org/apps/details/io.github.Cockatrice.cockatrice)
   
