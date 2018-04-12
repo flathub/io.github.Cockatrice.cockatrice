@@ -57,10 +57,7 @@
       "post-install": [
         "mkdir -p /app/share/appdata",
         "cp io.github.Cockatrice.appdata.xml /app/share/appdata/io.github.Cockatrice.cockatrice.appdata.xml",
-        "for size in 64 128; do
-          rsvg-convert -w $size -h $size -f png -o $size.png /app/share/icons/hicolor/scalable/apps/cockatrice.svg
-          install -Dm644 $size.png /app/share/icons/hicolor/${size}x${size}/apps/cockatrice.png
-        done"
+        "for size in 64 128; do rsvg-convert -w $size -h $size -f png -o $size.png /app/share/icons/hicolor/scalable/apps/cockatrice.svg install -Dm644 $size.png /app/share/icons/hicolor/${size}x${size}/apps/cockatrice.png done"
       ]
     }
   ]
