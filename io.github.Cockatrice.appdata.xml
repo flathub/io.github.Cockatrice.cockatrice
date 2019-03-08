@@ -11,6 +11,14 @@
 		The client also has a built in single-player mode where you can create decks without being connected to a server.
 		</p>
 	</description>
+	<screenshots>
+		<screenshot>
+			<image type="source">https://site.com/image1.png</image>
+		</screenshot>
+		<screenshot>
+			<image type="source">https://site.com/image2.png</image>
+		</screenshot>
+	</screenshots>
 	<keywords>
 		<keyword>game</keyword>
 		<keyword>card</keyword>
