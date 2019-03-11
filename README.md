@@ -9,11 +9,11 @@ Also, make sure to adjust the `version` and `date` values for the **release** ke
 <br>
 
 [Official Cockatrice webpage](https://cockatrice.github.io/)<br>
-[Package details on flathub](https://flathub.org/apps/details/io.github.Cockatrice.cockatrice)
+[Package details on Flathub](https://flathub.org/apps/details/io.github.Cockatrice.cockatrice)
 
 
 #### Useful links:
- - [Maintaining an application on flathub](https://github.com/flathub/flathub/wiki/Maintaining-an-application-on-flathub)
- - [Buildbot instance of flathub](https://flathub.org/builds)
+ - [Maintaining an application on Flathub](https://github.com/flathub/flathub/wiki/Maintaining-an-application-on-flathub)
+ - [Buildbot instance of Flathub](https://flathub.org/builds)
  - [List of all available flatpak packages on flathub](https://flathub.org/apps.html)
   
