@@ -15,6 +15,9 @@
 		<keyword>game</keyword>
 		<keyword>card</keyword>
 	</keywords>
+	<releases>
+		<release version="2.6.2" date="2018-12-20"/>
+	</releases>
 	<metadata_license>CC-BY-SA-3.0</metadata_license>
 	<project_license>GPL-2.0</project_license>
 	<url type="bugtracker">https://github.com/Cockatrice/Cockatrice/issues</url>

@@ -1,7 +1,7 @@
 {
   "app-id": "io.github.Cockatrice.cockatrice",
   "runtime": "org.kde.Platform",
-  "runtime-version": "5.9",
+  "runtime-version": "5.12",
   "sdk": "org.kde.Sdk",
   "command": "cockatrice",
   "rename-desktop-file": "cockatrice.desktop",
@@ -46,7 +46,7 @@
       "sources": [
         {
           "type": "git",
-          "branch": "2018-03-02-Release-2.5.0",
+          "branch": "2018-12-20-Release-2.6.2",
           "url": "git://github.com/Cockatrice/Cockatrice.git"
         },
         {
@@ -57,10 +57,7 @@
       "post-install": [
         "mkdir -p /app/share/appdata",
         "cp io.github.Cockatrice.appdata.xml /app/share/appdata/io.github.Cockatrice.cockatrice.appdata.xml",
-        "for size in 64 128; do
-          rsvg-convert -w $size -h $size -f png -o $size.png /app/share/icons/hicolor/scalable/apps/cockatrice.svg
-          install -Dm644 $size.png /app/share/icons/hicolor/${size}x${size}/apps/cockatrice.png
-        done"
+        "for size in 64 128 256 512; do rsvg-convert -w $size -h $size -f png -o $size.png /app/share/icons/hicolor/scalable/apps/cockatrice.svg; install -Dm644 $size.png /app/share/icons/hicolor/${size}x${size}/apps/cockatrice.png; done"
       ]
     }
   ]
