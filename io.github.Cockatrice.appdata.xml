@@ -13,10 +13,16 @@
 	</description>
 	<screenshots>
 		<screenshot>
-			<image type="source">https://site.com/image1.png</image>
+			<image type="source">https://raw.githubusercontent.com/flathub/io.github.Cockatrice.cockatrice/master/screenshots/deck_editor.png</image>
 		</screenshot>
 		<screenshot>
-			<image type="source">https://site.com/image2.png</image>
+			<image type="source">https://raw.githubusercontent.com/flathub/io.github.Cockatrice.cockatrice/master/screenshots/server.png</image>
+		</screenshot>
+		<screenshot>
+			<image type="source">https://raw.githubusercontent.com/flathub/io.github.Cockatrice.cockatrice/master/screenshots/game_lobby.png</image>
+		</screenshot>
+		<screenshot>
+			<image type="source">https://raw.githubusercontent.com/flathub/io.github.Cockatrice.cockatrice/master/screenshots/game.png</image>
 		</screenshot>
 	</screenshots>
 	<keywords>
