@@ -33,7 +33,7 @@
         {
           "type": "archive",
           "url": "https://github.com/protocolbuffers/protobuf/releases/download/v3.6.1/protobuf-cpp-3.6.1.tar.gz",
-          "sha256": "B3732E471A9BB7950F090FD0457EBD2536A9BA0891B7F3785919C654FE2A2529"
+          "sha256": "b3732e471a9bb7950f090fd0457ebd2536a9ba0891b7f3785919c654fe2a2529"
         }
       ]
     },
