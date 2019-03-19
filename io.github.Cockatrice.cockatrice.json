@@ -32,8 +32,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/google/protobuf/releases/download/v3.4.0/protobuf-cpp-3.4.0.tar.gz",
-          "sha256": "71434f6f836a1e479c44008bb033b2a8b2560ff539374dcdefb126be739e1635"
+          "url": "https://github.com/protocolbuffers/protobuf/releases/download/v3.6.1/protobuf-cpp-3.6.1.tar.gz",
+          "sha256": "b3732e471a9bb7950f090fd0457ebd2536a9ba0891b7f3785919c654fe2a2529"
         }
       ]
     },
