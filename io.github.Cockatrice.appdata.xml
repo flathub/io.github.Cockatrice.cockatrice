@@ -11,6 +11,20 @@
 		The client also has a built in single-player mode where you can create decks without being connected to a server.
 		</p>
 	</description>
+	<screenshots>
+		<screenshot>
+			<image type="source">https://raw.githubusercontent.com/flathub/io.github.Cockatrice.cockatrice/master/screenshots/deck_editor.png</image>
+		</screenshot>
+		<screenshot>
+			<image type="source">https://raw.githubusercontent.com/flathub/io.github.Cockatrice.cockatrice/master/screenshots/server.png</image>
+		</screenshot>
+		<screenshot>
+			<image type="source">https://raw.githubusercontent.com/flathub/io.github.Cockatrice.cockatrice/master/screenshots/game_lobby.png</image>
+		</screenshot>
+		<screenshot>
+			<image type="source">https://raw.githubusercontent.com/flathub/io.github.Cockatrice.cockatrice/master/screenshots/game.png</image>
+		</screenshot>
+	</screenshots>
 	<keywords>
 		<keyword>game</keyword>
 		<keyword>card</keyword>
