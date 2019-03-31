@@ -4,6 +4,9 @@
 	<name>Cockatrice</name>
 	<summary>Virtual tabletop for multiplayer card games</summary>
 	<developer_name>Cockatrice Project</developer_name>
+	<releases>
+		<release version="2.7.0" date="2019-03-04"/>
+	</releases>
 	<description>
 		<p>
 		Cockatrice is an open-source multi-platform supported program for playing tabletop card games over a network. 
@@ -12,16 +15,20 @@
 		</p>
 	</description>
 	<screenshots>
-		<screenshot>
+		<screenshot type="default">
+			<caption>Deck Editor</caption>
 			<image type="source">https://raw.githubusercontent.com/flathub/io.github.Cockatrice.cockatrice/master/screenshots/deck_editor.png</image>
 		</screenshot>
 		<screenshot>
+			<caption>Connected to Server</caption>
 			<image type="source">https://raw.githubusercontent.com/flathub/io.github.Cockatrice.cockatrice/master/screenshots/server.png</image>
 		</screenshot>
 		<screenshot>
+			<caption>Game Lobby</caption>
 			<image type="source">https://raw.githubusercontent.com/flathub/io.github.Cockatrice.cockatrice/master/screenshots/game_lobby.png</image>
 		</screenshot>
 		<screenshot>
+			<caption>Playing a Game</caption>
 			<image type="source">https://raw.githubusercontent.com/flathub/io.github.Cockatrice.cockatrice/master/screenshots/game.png</image>
 		</screenshot>
 	</screenshots>
@@ -29,9 +36,6 @@
 		<keyword>game</keyword>
 		<keyword>card</keyword>
 	</keywords>
-	<releases>
-		<release version="2.7.0" date="2019-03-04"/>
-	</releases>
 	<metadata_license>CC-BY-SA-3.0</metadata_license>
 	<project_license>GPL-2.0</project_license>
 	<url type="bugtracker">https://github.com/Cockatrice/Cockatrice/issues</url>
