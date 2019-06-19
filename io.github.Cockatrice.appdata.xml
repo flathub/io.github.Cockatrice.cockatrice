@@ -5,8 +5,11 @@
 	<summary>Virtual tabletop for multiplayer card games</summary>
 	<developer_name>Cockatrice Project</developer_name>
 	<releases>
-		<release version="2.7.0" date="2019-03-04"/>
+		<release version="2.7.1" date="2019-06-12"/>
 	</releases>
+        <content_rating type="oars-1.0">
+                <content_attribute id="social-chat">moderate</content_attribute>
+        </content_rating>
 	<description>
 		<p>
 		Cockatrice is an open-source, multiplatform program for playing tabletop card games over a network.
