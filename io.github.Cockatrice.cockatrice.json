@@ -46,7 +46,7 @@
       "sources": [
         {
           "type": "git",
-          "branch": "2019-06-12-Development-2.7.2-beta",
+          "branch": "2019-08-31-Release-2.7.2",
           "url": "git://github.com/Cockatrice/Cockatrice.git"
         },
         {
