@@ -5,7 +5,7 @@
 	<summary>Virtual tabletop for multiplayer card games</summary>
 	<developer_name>Cockatrice Project</developer_name>
 	<releases>
-		<release version="2.7.2" date="2019-08-31"/>
+		<release version="2.7.3" date="2020-03-18"/>
 	</releases>
         <content_rating type="oars-1.0">
                 <content_attribute id="social-chat">moderate</content_attribute>
