@@ -14,8 +14,11 @@ Also, make sure to adjust the `version` and `date` values for the **release** ke
 [Package details and download on Flathub](https://flathub.org/apps/details/io.github.Cockatrice.cockatrice)
 
 
-#### Useful links:
+#### Useful Links:
 
+ - Flathub Documentation
+   - [Manifests](https://docs.flatpak.org/en/latest/manifests.html)
+   - [Qt Guide](https://docs.flatpak.org/en/latest/qt.html)
  - Flathub Wiki
    - [App Maintenance](https://github.com/flathub/flathub/wiki/App-Maintenance)
    - [AppData Guidelines](https://github.com/flathub/flathub/wiki/AppData-Guidelines)
