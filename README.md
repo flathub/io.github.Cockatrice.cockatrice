@@ -16,5 +16,5 @@ Also, make sure to adjust the `version` and `date` values for the **release** ke
 
 #### Useful links:
 
- - [Maintaining an application on Flathub](https://github.com/flathub/flathub/wiki/Maintaining-an-application-on-flathub)
+ - [Maintaining an app on Flathub](https://github.com/flathub/flathub/wiki/App-Maintenance)
  - [Buildbot instance of Flathub](https://flathub.org/builds)
