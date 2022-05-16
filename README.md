@@ -10,8 +10,8 @@ Also, make sure to adjust the `version` and `date` values for the **release** ke
 
 <br>
 
-[Official Cockatrice webpage](https://cockatrice.github.io/)<br>
-[Package details and download on Flathub](https://flathub.org/apps/details/io.github.Cockatrice.cockatrice)
+  ➔ [Official Cockatrice webpage](https://cockatrice.github.io/)<br>
+  ➔ Package site with details and download: [Flathub](https://flathub.org/apps/details/io.github.Cockatrice.cockatrice) / [Flathub Beta](https://beta.flathub.org/apps/details/io.github.Cockatrice.cockatrice)
 
 
 #### Useful Links:
