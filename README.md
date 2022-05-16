@@ -16,6 +16,9 @@ Also, make sure to adjust the `version` and `date` values for the **release** ke
 
 #### Useful Links:
 
+ - Flathub Discourse
+   - [Announcements](https://discourse.flathub.org/c/announcements/6) of new runtimes etc.
+   - [Links to Resources](https://discourse.flathub.org/t/links-to-resources/2101)
  - Flathub Documentation
    - [Manifests](https://docs.flatpak.org/en/latest/manifests.html)
    - [Qt Guide](https://docs.flatpak.org/en/latest/qt.html)
