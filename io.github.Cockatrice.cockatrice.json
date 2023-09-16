@@ -1,7 +1,7 @@
 {
   "app-id": "io.github.Cockatrice.cockatrice",
   "runtime": "org.kde.Platform",
-  "runtime-version": "5.15-21.08",
+  "runtime-version": "6.5",
   "sdk": "org.kde.Sdk",
   "command": "cockatrice",
   "rename-desktop-file": "cockatrice.desktop",
@@ -23,6 +23,7 @@
   "modules": [
     {
       "name": "protobuf",
+      "buildsystem": "cmake",
       "cleanup": [
         "protoc",
         "/bin",
@@ -32,8 +33,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/protocolbuffers/protobuf/releases/download/v3.6.1/protobuf-cpp-3.6.1.tar.gz",
-          "sha256": "b3732e471a9bb7950f090fd0457ebd2536a9ba0891b7f3785919c654fe2a2529"
+          "url": "https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protobuf-cpp-3.21.12.tar.gz",
+          "sha256": "4eab9b524aa5913c6fffb20b2a8abf5ef7f95a80bc0701f3a6dbb4c607f73460"
         }
       ]
     },
@@ -46,8 +47,8 @@
       "sources": [
         {
           "type": "git",
-          "branch": "2021-01-26-Release-2.8.0",
-          "url": "git://github.com/Cockatrice/Cockatrice.git"
+          "tag": "2023-09-14-Release-2.9.0",
+          "url": "https://github.com/Cockatrice/Cockatrice.git"
         },
         {
           "type": "file",
