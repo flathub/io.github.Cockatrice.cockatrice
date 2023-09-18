@@ -1,0 +1,11 @@
+name: Lint
+on: pull_request
+jobs:
+  lint-metainfo:
+    name: Lint metainfo file
+    runs-on: ubuntu-latest
+    container: registry.fedoraproject.org/fedora:latest
+    steps:
+    - uses: actions/checkout@v3
+    - run: sudo dnf install -y libappstream-glib
+    - run: appstream-util validate --nonet io.github.Cockatrice.appdata.xml
