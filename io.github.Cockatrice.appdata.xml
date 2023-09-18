@@ -47,11 +47,13 @@
 	<metadata_license>CC-BY-SA-3.0</metadata_license>
 	<project_license>GPL-2.0</project_license>
 	<url type="bugtracker">https://github.com/Cockatrice/Cockatrice/issues</url>
-	<url type="community">https://discord.gg/3Z9yzmA</url>
+	<url type="contact">https://discord.gg/3Z9yzmA</url>
+	<url type="contribute">https://github.com/Cockatrice/Cockatrice/blob/master/.github/CONTRIBUTING.md</url>
 	<url type="faq">https://github.com/Cockatrice/Cockatrice/wiki/Frequently-Asked-Questions</url>
 	<url type="help">https://github.com/Cockatrice/Cockatrice/wiki</url>
-	<url type="homepage">https://cockatrice.github.io/</url>
-	<url type="translate">https://transifex.com/cockatrice/cockatrice/</url>
+	<url type="homepage">https://cockatrice.github.io</url>
+	<url type="translate">https://transifex.com/Cockatrice/Cockatrice</url>
+	<url type="vcs-browser">https://github.com/Cockatrice/Cockatrice</url
 	<launchable type="desktop-id">io.github.Cockatrice.cockatrice.desktop</launchable>
 	<provides>
   		<id>io.github.Cockatrice.cockatrice</id>
