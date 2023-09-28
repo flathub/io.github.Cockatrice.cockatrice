@@ -52,7 +52,7 @@
 	<url type="faq">https://github.com/Cockatrice/Cockatrice/wiki/Frequently-Asked-Questions</url>
 	<url type="help">https://github.com/Cockatrice/Cockatrice/wiki</url>
 	<url type="homepage">https://cockatrice.github.io</url>
-	<url type="translate">https://transifex.com/Cockatrice/Cockatrice</url>
+	<url type="translate">https://transifex.com/cockatrice/cockatrice</url>
 	<url type="vcs-browser">https://github.com/Cockatrice/Cockatrice</url>
 	<launchable type="desktop-id">io.github.Cockatrice.cockatrice.desktop</launchable>
 	<provides>
