@@ -11,7 +11,7 @@ Also, make sure to adjust the `version` and `date` values for the **release** ke
 <br>
 
   ➔ [Official Cockatrice webpage](https://cockatrice.github.io/)<br>
-  ➔ Package site with details and download: [Flathub](https://flathub.org/apps/details/io.github.Cockatrice.cockatrice) / [Flathub Beta](https://beta.flathub.org/apps/details/io.github.Cockatrice.cockatrice)
+  ➔ Package site with details and download: [Flathub](https://flathub.org/apps/details/io.github.Cockatrice.cockatrice)
 
 
 #### Useful Links:
@@ -25,4 +25,7 @@ Also, make sure to adjust the `version` and `date` values for the **release** ke
  - Flathub Wiki
    - [App Maintenance](https://github.com/flathub/flathub/wiki/App-Maintenance)
    - [AppData Guidelines](https://github.com/flathub/flathub/wiki/AppData-Guidelines)
- - [Buildbot instance](https://flathub.org/builds) of Flathub
+ - [Flathub Buildbot instance](https://flathub.org/builds)
+<br>
+
+ - [AppStream Documentation](https://www.freedesktop.org/software/appstream/docs/index.html)
