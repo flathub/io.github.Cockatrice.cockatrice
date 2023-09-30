@@ -1,0 +1,12 @@
+name: Validate AppData file
+on: pull_request
+jobs:
+  validate-metainfo:
+    name: Validate AppStream Metadata
+    runs-on: ubuntu-latest
+    container: ubuntu:mantic   # can be changed to ubuntu:rolling later
+    steps:
+    - uses: actions/checkout@v4
+    - run: apt-get update
+    - run: apt-get -y install appstream
+    - run: appstreamcli validate --pedantic io.github.Cockatrice.appdata.xml
