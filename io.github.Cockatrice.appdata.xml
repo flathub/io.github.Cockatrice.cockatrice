@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-	<id>cockatrice.desktop</id>
+	<id>io.github.Cockatrice.cockatrice</id>
 	<name>Cockatrice</name>
 	<summary>Virtual tabletop for multiplayer card games</summary>
 	<developer_name>Cockatrice Project</developer_name>
