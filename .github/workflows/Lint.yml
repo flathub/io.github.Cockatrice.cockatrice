@@ -1,4 +1,4 @@
-name: Validate AppData file
+name: Lint
 on: pull_request
 jobs:
   validate-metainfo:
