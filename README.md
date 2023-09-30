@@ -16,16 +16,18 @@ Also, make sure to adjust the `version` and `date` values for the **release** ke
 
 #### Useful Links:
 
+ - Flatpak Documentation
+   - [Manifests](https://docs.flatpak.org/en/latest/manifests.html)
+   - [Qt Guide](https://docs.flatpak.org/en/latest/qt.html)
+<br>
+
  - Flathub Discourse
    - [Announcements](https://discourse.flathub.org/c/announcements/6) of new runtimes etc.
    - [Links to Resources](https://discourse.flathub.org/t/links-to-resources/2101)
  - Flathub Documentation
-   - [Manifests](https://docs.flatpak.org/en/latest/manifests.html)
-   - [Qt Guide](https://docs.flatpak.org/en/latest/qt.html)
- - Flathub Wiki
-   - [App Maintenance](https://github.com/flathub/flathub/wiki/App-Maintenance)
-   - [AppData Guidelines](https://github.com/flathub/flathub/wiki/AppData-Guidelines)
+   - [App Maintenance](https://docs.flathub.org/docs/for-app-authors/maintanance/)
+   - [AppData Guidelines](https://docs.flathub.org/docs/for-app-authors/appdata-guidelines/)
  - [Flathub Buildbot instance](https://flathub.org/builds)
 <br>
 
- - [AppStream Documentation](https://www.freedesktop.org/software/appstream/docs/index.html)
+ - [AppStream Metadata Documentation](https://www.freedesktop.org/software/appstream/docs/chap-Metadata.html)
