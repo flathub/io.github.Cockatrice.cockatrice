@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop">
-	<id>cockatrice.desktop</id>
+<component type="desktop-application">
+	<id>io.github.Cockatrice.cockatrice</id>
 	<name>Cockatrice</name>
 	<summary>Virtual tabletop for multiplayer card games</summary>
 	<developer_name>Cockatrice Project</developer_name>
@@ -56,6 +56,7 @@
 	<url type="vcs-browser">https://github.com/Cockatrice/Cockatrice</url>
 	<launchable type="desktop-id">io.github.Cockatrice.cockatrice.desktop</launchable>
 	<provides>
-  		<id>io.github.Cockatrice.cockatrice</id>
+		<!-- Renamed from this -->
+		<id>cockatrice.desktop</id>
 	</provides>
 </component>
