@@ -55,4 +55,8 @@
 	<url type="translate">https://transifex.com/cockatrice/cockatrice</url>
 	<url type="vcs-browser">https://github.com/Cockatrice/Cockatrice</url>
 	<launchable type="desktop-id">io.github.Cockatrice.cockatrice.desktop</launchable>
+	<provides>
+		<!-- Renamed from this -->
+		<id>cockatrice.desktop</id>
+	</provides>
 </component>
