@@ -30,4 +30,6 @@ Also, make sure to adjust the `version` and `date` values for the **release** ke
  - [Flathub Buildbot instance](https://flathub.org/builds)
 <br>
 
- - [AppStream Metadata Documentation](https://www.freedesktop.org/software/appstream/docs/chap-Metadata.html)
+ - Appstream Documentation
+   - [Metadata Quickstart](https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html) 
+   - [Metadata for Desktop Applications](https://www.freedesktop.org/software/appstream/docs/sect-Metadata-Application.html)
