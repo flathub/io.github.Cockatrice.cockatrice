@@ -14,4 +14,4 @@ jobs:
         cat /etc/os-release | egrep "PRETTY_NAME|VERSION_ID"
         echo ""
         appstreamcli --version
-    - run: appstreamcli validate --pedantic io.github.Cockatrice.appdata.xml
+    - run: appstreamcli validate --pedantic io.github.Cockatrice.cockatrice.metainfo.xml
