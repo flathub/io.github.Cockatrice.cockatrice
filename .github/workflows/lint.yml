@@ -4,7 +4,7 @@ jobs:
   validate-appdata:
     name: Validate AppData
     runs-on: ubuntu-latest
-    container: ubuntu:mantic   # see #49, can be changed to ubuntu:rolling later
+    container: ubuntu:rolling
     steps:
     - uses: actions/checkout@v4
     - run: apt-get update
