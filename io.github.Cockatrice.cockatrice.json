@@ -1,7 +1,7 @@
 {
   "app-id": "io.github.Cockatrice.cockatrice",
   "runtime": "org.kde.Platform",
-  "runtime-version": "6.5",
+  "runtime-version": "6.6",
   "sdk": "org.kde.Sdk",
   "command": "cockatrice",
   "rename-desktop-file": "cockatrice.desktop",
@@ -10,7 +10,7 @@
   "finish-args": [
     "--share=ipc",
     "--share=network",
-    "--socket=x11",
+    "--socket=fallback-x11",
     "--socket=wayland",
     "--filesystem=home"
   ],
@@ -18,12 +18,13 @@
     "*.la",
     "*.a",
     "/include",
+    "/lib/cmake",
     "/lib/pkgconfig"
   ],
   "modules": [
     {
       "name": "protobuf",
-      "buildsystem": "cmake",
+      "buildsystem": "cmake-ninja",
       "cleanup": [
         "protoc",
         "/bin",
@@ -40,7 +41,7 @@
     },
     {
       "name": "cockatrice",
-      "buildsystem": "cmake",
+      "buildsystem": "cmake-ninja",
       "config-opts": [
         "-DBUILD_SHARED_LIBS:BOOL=OFF"
       ],
@@ -52,12 +53,11 @@
         },
         {
           "type": "file",
-          "path": "io.github.Cockatrice.appdata.xml"
+          "path": "io.github.Cockatrice.cockatrice.metainfo.xml"
         }
       ],
       "post-install": [
-        "mkdir -p /app/share/appdata",
-        "cp io.github.Cockatrice.appdata.xml /app/share/appdata/io.github.Cockatrice.cockatrice.appdata.xml",
+        "install -Dm644 io.github.Cockatrice.cockatrice.metainfo.xml -t /app/share/metainfo",
         "for size in 64 128 256 512; do rsvg-convert -w $size -h $size -f png -o $size.png /app/share/icons/hicolor/scalable/apps/cockatrice.svg; install -Dm644 $size.png /app/share/icons/hicolor/${size}x${size}/apps/cockatrice.png; done"
       ]
     }
