@@ -23,11 +23,31 @@
   ],
   "modules": [
     {
+      "name": "abseil",
+      "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DCMAKE_CXX_STANDARD=17",
+                "-DCMAKE_POSITION_INDEPENDENT_CODE=ON",
+                "-DBUILD_SHARED_LIBS=ON",
+                "-DABSL_PROPAGATE_CXX_STD=ON"
+            ],
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://github.com/abseil/abseil-cpp/archive/refs/tags/20240116.2.tar.gz",
+          "sha256": "3c6de11cec5ca052c9e60b2a4e35a275f69bd55f380708914d8e0a019b389387"
+        }
+      ]
+    },
+    {
       "name": "protobuf",
       "buildsystem": "cmake-ninja",
-      "config-opts": [
-        "-Dprotobuf_BUILD_TESTS=OFF"
-      ],      
+            "config-opts": [
+                "-DCMAKE_POSITION_INDEPENDENT_CODE=ON",
+                "-Dprotobuf_ABSL_PROVIDER=package",
+                "-Dprotobuf_BUILD_SHARED_LIBS=ON",
+                "-Dprotobuf_BUILD_TESTS=OFF"
+            ],
       "cleanup": [
         "protoc",
         "/bin",
@@ -41,7 +61,7 @@
           "sha256": "3c6de11cec5ca052c9e60b2a4e35a275f69bd55f380708914d8e0a019b389387"
         }
       ]
-    },
+    },    
     {
       "name": "cockatrice",
       "buildsystem": "cmake-ninja",
