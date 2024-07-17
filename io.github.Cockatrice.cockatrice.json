@@ -25,6 +25,9 @@
     {
       "name": "protobuf",
       "buildsystem": "cmake-ninja",
+      "config-opts": [
+        "-Dprotobuf_BUILD_TESTS=OFF"
+      ],      
       "cleanup": [
         "protoc",
         "/bin",
