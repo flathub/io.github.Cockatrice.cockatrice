@@ -35,7 +35,7 @@
         {
           "type": "archive",
           "url": "https://github.com/abseil/abseil-cpp/archive/refs/tags/20240116.2.tar.gz",
-          "sha256": "3c6de11cec5ca052c9e60b2a4e35a275f69bd55f380708914d8e0a019b389387"
+          "sha256": "733726b8c3a6d39a4120d7e45ea8b41a434cdacde401cba500f14236c49b39dc"
         }
       ]
     },
