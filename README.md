@@ -8,7 +8,7 @@
 
 > [!NOTE]
 > If the <kbd>source</kbd> and <kbd>flathub</kbd> version do not match above,  
-> please send a PR and update the `branch` value for the **sources** array in [cockatrice.json](https://github.com/flathub/io.github.Cockatrice.cockatrice/blob/master/io.github.Cockatrice.cockatrice.json#L51) to bump the flathub release accordingly!<br>
+> please send a PR and update the `tag` value for the **sources** array in [cockatrice.json](https://github.com/flathub/io.github.Cockatrice.cockatrice/blob/master/io.github.Cockatrice.cockatrice.json#L51) to bump the flathub release accordingly!<br>
 Also, make sure to adjust the `version` and `date` values for the **release** key in the manifest file ([metainfo.xml](https://github.com/flathub/io.github.Cockatrice.cockatrice/blob/master/io.github.Cockatrice.cockatrice.metainfo.xml#L8)) in the process as well.
 
 <br>
