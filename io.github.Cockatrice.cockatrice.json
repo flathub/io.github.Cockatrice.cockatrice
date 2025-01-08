@@ -57,7 +57,8 @@
           "url": "https://github.com/Cockatrice/Cockatrice.git",
           "x-checker-data": {
               "type": "git",
-              "tag-pattern": "^([\\d-]+Release-[\\d.]+)$"
+              "tag-pattern": "^([\\d-]+Release-[\\d.]+)$",
+              "is-main-source": "true"
           }
         },
         {
