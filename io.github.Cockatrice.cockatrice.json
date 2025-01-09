@@ -23,6 +23,39 @@
     ],
     "modules": [
         {
+            "name": "cockatrice",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_SHARED_LIBS:BOOL=OFF"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/Cockatrice/Cockatrice.git",
+                    "tag": "2023-09-14-Release-2.9.0",
+                    "commit": "064b362d60eee06e512afe44c536b59286a3061e"
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^([\\d-]+Release-[\\d.]+)$",
+                        "is-main-source": true
+                    },
+                },
+                {
+                    "type": "file",
+                    "path": "io.github.Cockatrice.cockatrice.metainfo.xml"
+                },
+                {
+                    "//": "Fixes build with protobuf v23+, already merged upstream for release 2.10.0",
+                    "type": "patch",
+                    "path": "protobuf-23.patch"
+                }
+            ],
+            "post-install": [
+                "install -Dm644 io.github.Cockatrice.cockatrice.metainfo.xml -t /app/share/metainfo",
+                "for size in 64 128 256 512; do rsvg-convert -w $size -h $size -f png -o $size.png /app/share/icons/hicolor/scalable/apps/cockatrice.svg; install -Dm644 $size.png /app/share/icons/hicolor/${size}x${size}/apps/cockatrice.png; done"
+            ]
+        },
+        {
             "name": "protobuf",
             "buildsystem": "cmake-ninja",
             "cleanup": [
@@ -42,39 +75,6 @@
                         "tag-pattern": "^v([\\d.]+)$"
                     }
                 }
-            ]
-        },
-        {
-            "name": "cockatrice",
-            "buildsystem": "cmake-ninja",
-            "config-opts": [
-                "-DBUILD_SHARED_LIBS:BOOL=OFF"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "tag": "2023-09-14-Release-2.9.0",
-                    "url": "https://github.com/Cockatrice/Cockatrice.git",
-                    "x-checker-data": {
-                        "type": "git",
-                        "tag-pattern": "^([\\d-]+Release-[\\d.]+)$",
-                        "is-main-source": true
-                    },
-                    "commit": "064b362d60eee06e512afe44c536b59286a3061e"
-                },
-                {
-                    "type": "file",
-                    "path": "io.github.Cockatrice.cockatrice.metainfo.xml"
-                },
-                {
-                    "//": "Fixes build with protobuf v23+, already merged upstream for release 2.10.0",
-                    "type": "patch",
-                    "path": "protobuf-23.patch"
-                }
-            ],
-            "post-install": [
-                "install -Dm644 io.github.Cockatrice.cockatrice.metainfo.xml -t /app/share/metainfo",
-                "for size in 64 128 256 512; do rsvg-convert -w $size -h $size -f png -o $size.png /app/share/icons/hicolor/scalable/apps/cockatrice.svg; install -Dm644 $size.png /app/share/icons/hicolor/${size}x${size}/apps/cockatrice.png; done"
             ]
         }
     ]
