@@ -1,80 +1,80 @@
 {
-  "app-id": "io.github.Cockatrice.cockatrice",
-  "runtime": "org.kde.Platform",
-  "runtime-version": "6.8",
-  "sdk": "org.kde.Sdk",
-  "command": "cockatrice",
-  "rename-desktop-file": "cockatrice.desktop",
-  "rename-icon": "cockatrice",
-  "copy-icon": true,
-  "finish-args": [
-    "--share=ipc",
-    "--share=network",
-    "--socket=fallback-x11",
-    "--socket=wayland",
-    "--filesystem=home"
-  ],
-  "cleanup": [
-    "*.la",
-    "*.a",
-    "/include",
-    "/lib/cmake",
-    "/lib/pkgconfig"
-  ],
-  "modules": [
-    {
-      "name": "protobuf",
-      "buildsystem": "cmake-ninja",
-      "cleanup": [
-        "protoc",
-        "/bin",
-        "/doc",
-        "/lib/plugins"
-      ],
-      "sources": [
+    "app-id": "io.github.Cockatrice.cockatrice",
+    "runtime": "org.kde.Platform",
+    "runtime-version": "6.8",
+    "sdk": "org.kde.Sdk",
+    "command": "cockatrice",
+    "rename-desktop-file": "cockatrice.desktop",
+    "rename-icon": "cockatrice",
+    "copy-icon": true,
+    "finish-args": [
+        "--share=ipc",
+        "--share=network",
+        "--socket=fallback-x11",
+        "--socket=wayland",
+        "--filesystem=home"
+    ],
+    "cleanup": [
+        "*.la",
+        "*.a",
+        "/include",
+        "/lib/cmake",
+        "/lib/pkgconfig"
+    ],
+    "modules": [
         {
-          "type": "git",
-          "url": "https://github.com/protocolbuffers/protobuf.git",
-          "tag": "v29.2",
-          "commit": "233098326bc268fc03b28725c941519fc77703e6",
-          "x-checker-data": {
-              "type": "git",
-              "tag-pattern": "^v([\\d.]+)$"
-          }
-        }
-      ]
-    },
-    {
-      "name": "cockatrice",
-      "buildsystem": "cmake-ninja",
-      "config-opts": [
-        "-DBUILD_SHARED_LIBS:BOOL=OFF"
-      ],
-      "sources": [
-        {
-          "type": "git",
-          "tag": "2023-09-14-Release-2.9.0",
-          "url": "https://github.com/Cockatrice/Cockatrice.git",
-          "x-checker-data": {
-              "type": "git",
-              "tag-pattern": "^([\\d-]+Release-[\\d.]+)$",
-              "is-main-source": "true"
-          }
+            "name": "protobuf",
+            "buildsystem": "cmake-ninja",
+            "cleanup": [
+                "protoc",
+                "/bin",
+                "/doc",
+                "/lib/plugins"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/protocolbuffers/protobuf.git",
+                    "tag": "v29.3",
+                    "commit": "b407e8416e3893036aee5af9a12bd9b6a0e2b2e6",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$"
+                    }
+                }
+            ]
         },
         {
-          "type": "file",
-          "path": "io.github.Cockatrice.cockatrice.metainfo.xml"
-        },
-        {
-          "//": "Fixes build with protobuf v23+, already merged upstream for release 2.10.0",
-          "type": "patch",
-          "path": "protobuf-23.patch"
+            "name": "cockatrice",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_SHARED_LIBS:BOOL=OFF"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "tag": "2023-09-14-Release-2.9.0",
+                    "url": "https://github.com/Cockatrice/Cockatrice.git",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^([\\d-]+Release-[\\d.]+)$",
+                        "is-main-source": "true"
+                    }
+                },
+                {
+                    "type": "file",
+                    "path": "io.github.Cockatrice.cockatrice.metainfo.xml"
+                },
+                {
+                    "//": "Fixes build with protobuf v23+, already merged upstream for release 2.10.0",
+                    "type": "patch",
+                    "path": "protobuf-23.patch"
+                }
+            ],
+            "post-install": [
+                "install -Dm644 io.github.Cockatrice.cockatrice.metainfo.xml -t /app/share/metainfo",
+                "for size in 64 128 256 512; do rsvg-convert -w $size -h $size -f png -o $size.png /app/share/icons/hicolor/scalable/apps/cockatrice.svg; install -Dm644 $size.png /app/share/icons/hicolor/${size}x${size}/apps/cockatrice.png; done"
+            ]
         }
-      ],
-      "post-install": [
-        "install -Dm644 io.github.Cockatrice.cockatrice.metainfo.xml -t /app/share/metainfo",
-        "for size in 64 128 256 512; do rsvg-convert -w $size -h $size -f png -o $size.png /app/share/icons/hicolor/scalable/apps/cockatrice.svg; install -Dm644 $size.png /app/share/icons/hicolor/${size}x${size}/apps/cockatrice.png; done"
-      ]
-    }
-  ]
+    ]
 }
