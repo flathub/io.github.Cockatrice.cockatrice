@@ -58,7 +58,7 @@
           "x-checker-data": {
               "type": "git",
               "tag-pattern": "^([\\d-]+Release-[\\d.]+)$",
-              "is-main-source": "true"
+              "is-main-source": true
           }
         },
         {
