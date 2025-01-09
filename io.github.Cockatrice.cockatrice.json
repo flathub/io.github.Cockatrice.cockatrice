@@ -49,10 +49,6 @@
                     "type": "patch",
                     "path": "protobuf-23.patch"
                 }
-            ],
-            "post-install": [
-                "install -Dm644 io.github.Cockatrice.cockatrice.metainfo.xml -t /app/share/metainfo",
-                "for size in 64 128 256 512; do rsvg-convert -w $size -h $size -f png -o $size.png /app/share/icons/hicolor/scalable/apps/cockatrice.svg; install -Dm644 $size.png /app/share/icons/hicolor/${size}x${size}/apps/cockatrice.png; done"
             ]
         },
         {
@@ -75,6 +71,10 @@
                         "tag-pattern": "^v([\\d.]+)$"
                     }
                 }
+            ],
+            "post-install": [
+                "install -Dm644 io.github.Cockatrice.cockatrice.metainfo.xml -t /app/share/metainfo",
+                "for size in 64 128 256 512; do rsvg-convert -w $size -h $size -f png -o $size.png /app/share/icons/hicolor/scalable/apps/cockatrice.svg; install -Dm644 $size.png /app/share/icons/hicolor/${size}x${size}/apps/cockatrice.png; done"
             ]
         }
     ]
