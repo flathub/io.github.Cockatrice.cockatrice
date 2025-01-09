@@ -38,7 +38,7 @@
                         "type": "git",
                         "tag-pattern": "^([\\d-]+Release-[\\d.]+)$",
                         "is-main-source": true
-                    },
+                    }
                 },
                 {
                     "type": "file",
