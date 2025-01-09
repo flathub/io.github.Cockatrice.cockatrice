@@ -33,7 +33,7 @@
                     "type": "git",
                     "url": "https://github.com/Cockatrice/Cockatrice.git",
                     "tag": "2023-09-14-Release-2.9.0",
-                    "commit": "064b362d60eee06e512afe44c536b59286a3061e"
+                    "commit": "064b362d60eee06e512afe44c536b59286a3061e",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d-]+Release-[\\d.]+)$",
