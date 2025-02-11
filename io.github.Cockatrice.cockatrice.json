@@ -65,11 +65,6 @@
                 {
                     "type": "file",
                     "path": "io.github.Cockatrice.cockatrice.metainfo.xml"
-                },
-                {
-                    "//": "Fixes build with protobuf v23+, already merged upstream for release 2.10.0",
-                    "type": "patch",
-                    "path": "protobuf-23.patch"
                 }
             ],
             "post-install": [
