@@ -35,8 +35,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/protocolbuffers/protobuf.git",
-                    "tag": "v29.3",
-                    "commit": "b407e8416e3893036aee5af9a12bd9b6a0e2b2e6",
+                    "tag": "v30.0",
+                    "commit": "d295af5c3002c08e1bfd9d7f9e175d0a4d015f1e",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
