@@ -15,8 +15,8 @@
 
 <br>
 
-  ➔ [Official Cockatrice webpage](https://cockatrice.github.io/)<br>
-  ➔ Package site with details and download: [Flathub](https://flathub.org/apps/details/io.github.Cockatrice.cockatrice)
+  ➔ Resulting [Flathub package site for "Cockatrice"](https://flathub.org/apps/details/io.github.Cockatrice.cockatrice) with details and app download<br>
+  ➔ [Official Cockatrice webpage](https://cockatrice.github.io/)
 
 
 #### Useful Links:
