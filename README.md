@@ -18,10 +18,12 @@
   ➔ Resulting [Flathub package site for "Cockatrice"](https://flathub.org/apps/details/io.github.Cockatrice.cockatrice) with details and app download<br>
   ➔ [Official Cockatrice webpage](https://cockatrice.github.io/)
 
+<br>
 
 #### Useful Links:
 
  - Flatpak Documentation
+   - [Link Collection for App Authors](https://docs.flathub.org/docs/for-app-authors/useful-links)
    - [Manifests](https://docs.flatpak.org/en/latest/manifests.html)
    - [Qt Guide](https://docs.flatpak.org/en/latest/qt.html)
 <br>
@@ -31,7 +33,7 @@
    - [Links to Resources](https://discourse.flathub.org/t/links-to-resources/2101)
  - Flathub Documentation
    - [App Maintenance](https://docs.flathub.org/docs/for-app-authors/maintanance/)
-   - [AppData Guidelines](https://docs.flathub.org/docs/for-app-authors/appdata-guidelines/)
+   - [MetaInfo Guidelines](https://docs.flathub.org/docs/for-app-authors/appdata-guidelines/)
  - [Flathub Buildbot instance](https://flathub.org/builds)
 <br>
 
