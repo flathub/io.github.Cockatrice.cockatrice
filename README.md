@@ -1,9 +1,9 @@
 # Flatpak package for [Cockatrice](https://cockatrice.github.io/)
 
-[![Flathub](https://img.shields.io/flathub/downloads/io.github.Cockatrice.cockatrice)](https://flathub.org/api/v2/stats/io.github.Cockatrice.cockatrice)
+[![Flathub Downloads](https://img.shields.io/flathub/downloads/io.github.Cockatrice.cockatrice)](https://flathub.org/api/v2/stats/io.github.Cockatrice.cockatrice)
 
-[![Cockatrice release history](https://img.shields.io/github/release/cockatrice/cockatrice.svg?label=latest%20source%20package&colorB=4ac41d)](https://github.com/cockatrice/cockatrice/releases/latest)<br>
-[![](https://img.shields.io/badge/dynamic/json.svg?label=latest%20flathub%20package&colorB=4ac41d&query=$.modules[1].sources[:1].tag&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fflathub%2Fio.github.Cockatrice.cockatrice%2Fmaster%2Fio.github.Cockatrice.cockatrice.json)](https://github.com/flathub/io.github.Cockatrice.cockatrice/blob/master/io.github.Cockatrice.cockatrice.json#L57)<br>
+[![Latest Official Release](https://img.shields.io/github/release/cockatrice/cockatrice.svg?label=latest%20source%20package&colorB=4ac41d)](https://github.com/cockatrice/cockatrice/releases/latest)<br>
+[![Latest Release on Flathub](https://img.shields.io/badge/dynamic/json.svg?label=latest%20flathub%20package&colorB=4ac41d&query=$.modules[1].sources[:1].tag&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fflathub%2Fio.github.Cockatrice.cockatrice%2Fmaster%2Fio.github.Cockatrice.cockatrice.json)](https://github.com/flathub/io.github.Cockatrice.cockatrice/blob/master/io.github.Cockatrice.cockatrice.json#L57)<br>
 <br>
 
 > [!NOTE]
