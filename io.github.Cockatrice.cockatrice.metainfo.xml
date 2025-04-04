@@ -5,13 +5,16 @@
 	<summary>Virtual tabletop for multiplayer card games</summary>
 	<developer_name>Cockatrice Project</developer_name>
 	<releases>
+		<release version="2025-04-03-Release-2.10.2" date="2025-04-04">
+			<description></description>
+		</release>
 		<!-- Include <url> key with link to /latest for each release, see https://github.com/flathub-infra/flatpak-external-data-checker/issues/466 -->
 		<release version="2025-03-27-Release-2.10.1" date="2025-03-29">
-			<description></description>
+			<description/>
 			<url>https://github.com/Cockatrice/Cockatrice/releases/latest</url>
 		</release>
 		<release version="2025-02-10-Release-2.10.0" date="2025-02-10">
-			<description></description>
+			<description/>
 			<url>https://github.com/Cockatrice/Cockatrice/releases/latest</url>
 		</release>
 	</releases>
