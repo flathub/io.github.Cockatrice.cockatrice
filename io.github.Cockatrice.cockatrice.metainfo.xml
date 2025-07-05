@@ -3,7 +3,9 @@
 	<id>io.github.Cockatrice.cockatrice</id>
 	<name>Cockatrice</name>
 	<summary>Virtual tabletop for multiplayer card games</summary>
-	<developer_name>Cockatrice Project</developer_name>
+	<developer id="io.github.cockatrice">
+		<name>Cockatrice Project</name>
+	</developer>
 	<!-- Include <url> key with link to /latest for each release, see https://github.com/flathub-infra/flatpak-external-data-checker/issues/466 -->
 	<releases>
 		<release version="2025-04-03-Release-2.10.2" date="2025-04-04">
@@ -59,7 +61,7 @@
 	<url type="faq">https://github.com/Cockatrice/Cockatrice/wiki/Frequently-Asked-Questions</url>
 	<url type="help">https://github.com/Cockatrice/Cockatrice/wiki</url>
 	<url type="homepage">https://cockatrice.github.io</url>
-	<url type="translate">https://transifex.com/cockatrice/cockatrice</url>
+	<url type="translate">https://explore.transifex.com/cockatrice/cockatrice/</url>
 	<url type="vcs-browser">https://github.com/Cockatrice/Cockatrice</url>
 	<launchable type="desktop-id">io.github.Cockatrice.cockatrice.desktop</launchable>
 	<provides>
