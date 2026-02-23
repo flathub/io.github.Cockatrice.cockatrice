@@ -8,7 +8,7 @@
 	</developer>
 	<!-- Include <url> key with link to /latest for each release, see https://github.com/flathub-infra/flatpak-external-data-checker/issues/466 -->
 	<releases>
-		<release version="2025-04-03-Release-2.10.3" date="2025-04-04">
+		<release version="2026-02-22-Release-2.10.3" date="2026-02-22">
 			<description></description>
 			<url>https://github.com/Cockatrice/Cockatrice/releases/latest</url>
 		</release>
