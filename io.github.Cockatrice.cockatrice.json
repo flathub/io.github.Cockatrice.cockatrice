@@ -62,6 +62,7 @@
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d-]+Release-[\\d.]+)$",
+                        "release-url-template": "https://github.com/Cockatrice/Cockatrice/releases/latest",
                         "is-main-source": true
                     }
                 },

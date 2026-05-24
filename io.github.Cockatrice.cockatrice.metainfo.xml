@@ -6,7 +6,6 @@
 	<developer id="io.github.cockatrice">
 		<name>Cockatrice Project</name>
 	</developer>
-	<!-- Include <url> key with link to /latest for each release, see https://github.com/flathub-infra/flatpak-external-data-checker/issues/466 -->
 	<releases>
 		<release version="2026-05-23-Release-3.0.1" date="2026-05-23">
 			<description/>
