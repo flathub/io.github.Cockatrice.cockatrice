@@ -38,8 +38,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/protocolbuffers/protobuf.git",
-                    "tag": "v35.0",
-                    "commit": "e59364c38e10de3686a3305ff11fbfc59a10dbd8",
+                    "tag": "v35.1",
+                    "commit": "35cd01f9fe9afbeea38cc7b979a3b6bfcde82c03",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
@@ -57,8 +57,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/Cockatrice/Cockatrice.git",
-                    "tag": "2026-05-23-Release-3.0.1",
-                    "commit": "b3450a78cd16bc6fcb1594b285d9b5d1926c2fd8",
+                    "tag": "2026-06-18-Release-3.0.2",
+                    "commit": "cfc6d5dfed5e9700a4be261caf349e814939d77d",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d-]+Release-[\\d.]+)$",
