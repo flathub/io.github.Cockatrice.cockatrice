@@ -7,6 +7,10 @@
 		<name>Cockatrice Project</name>
 	</developer>
 	<releases>
+		<release version="2026-06-18-Release-3.0.2" date="2026-06-23">
+			<url type="details">https://github.com/Cockatrice/Cockatrice/releases/latest</url>
+			<description></description>
+		</release>
 		<release version="2026-05-23-Release-3.0.1" date="2026-05-23">
 			<description/>
 			<url>https://github.com/Cockatrice/Cockatrice/releases/latest</url>
