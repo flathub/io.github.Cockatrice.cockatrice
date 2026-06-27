@@ -8,31 +8,31 @@
 	</developer>
 	<releases>
 		<release version="2026-06-26-Release-3.0.2" date="2026-06-26">
-			<url type="details">https://github.com/Cockatrice/Cockatrice/releases/latest</url>
+			<url type="details">https://github.com/Cockatrice/Cockatrice/releases/tag/2026-06-26-Release-3.0.2</url>
 			<description></description>
 		</release>
 		<release version="2026-05-23-Release-3.0.1" date="2026-05-23">
-			<url type="details">https://github.com/Cockatrice/Cockatrice/releases/latest</url>
+			<url type="details">https://github.com/Cockatrice/Cockatrice/releases/tag/2026-05-23-Release-3.0.1</url>
 			<description></description>
 		</release>
 		<release version="2026-05-08-Release-3.0.0" date="2026-05-08">
-			<url type="details">https://github.com/Cockatrice/Cockatrice/releases/latest</url>
+			<url type="details">https://github.com/Cockatrice/Cockatrice/releases/tag/2026-05-08-Release-3.0.0/</url>
 			<description></description>
 		</release>
 		<release version="2026-02-22-Release-2.10.3" date="2026-02-22">
-			<url type="details">https://github.com/Cockatrice/Cockatrice/releases/latest</url>
+			<url type="details">https://github.com/Cockatrice/Cockatrice/releases/tag/2026-02-22-Release-2.10.3</url>
 			<description></description>
 		</release>
 		<release version="2025-04-03-Release-2.10.2" date="2025-04-04">
-			<url type="details">https://github.com/Cockatrice/Cockatrice/releases/latest</url>
+			<url type="details">https://github.com/Cockatrice/Cockatrice/releases/tag/2025-04-03-Release-2.10.2</url>
 			<description></description>
 		</release>
 		<release version="2025-03-27-Release-2.10.1" date="2025-03-29">
-			<url type="details">https://github.com/Cockatrice/Cockatrice/releases/latest</url>
+			<url type="details">https://github.com/Cockatrice/Cockatrice/releases/tag/2025-03-27-Release-2.10.1</url>
 			<description></description>
 		</release>
 		<release version="2025-02-10-Release-2.10.0" date="2025-02-10">
-			<url type="details">https://github.com/Cockatrice/Cockatrice/releases/latest</url>
+			<url type="details">https://github.com/Cockatrice/Cockatrice/releases/tag/2025-02-10-Release-2.10.0</url>
 			<description></description>
 		</release>
 	</releases>
