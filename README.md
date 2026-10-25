@@ -10,7 +10,7 @@
 
 > [!NOTE]
 > The version of the flatpak package is updated on new source releases via [flatpak-external-data-checker](https://github.com/flathub-infra/flatpak-external-data-checker) automatically.<br>
-> Checks following the `x-checker-data` definitions in the [app json](https://github.com/flathub/io.github.Cockatrice.cockatrice/blob/master/io.github.Cockatrice.cockatrice.json) are performed hourly.
+> Checks following the `x-checker-data` definitions in the [app json](https://github.com/flathub/io.github.Cockatrice.cockatrice/blob/master/io.github.Cockatrice.cockatrice.json) are performed [periodically](https://github.com/flathub/flathub/blob/master/.github/workflows/external-data-checker.yml).
 
 <br>
 
