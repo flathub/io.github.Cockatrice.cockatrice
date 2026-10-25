@@ -23,31 +23,6 @@
     ],
     "modules": [
         {
-            "name": "protobuf",
-            "buildsystem": "cmake-ninja",
-            "config-opts": [
-                "-Dprotobuf_BUILD_TESTS=OFF"
-            ],
-            "cleanup": [
-                "protoc",
-                "/bin",
-                "/doc",
-                "/lib/plugins"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://github.com/protocolbuffers/protobuf.git",
-                    "tag": "v36.2",
-                    "commit": "2c74169b34066ceb8ddb6b882fcb3fb32d737a55",
-                    "x-checker-data": {
-                        "type": "git",
-                        "tag-pattern": "^v([\\d.]+)$"
-                    }
-                }
-            ]
-        },
-        {
             "name": "cockatrice",
             "buildsystem": "cmake-ninja",
             "config-opts": [
@@ -74,6 +49,31 @@
             "post-install": [
                 "install -Dm644 io.github.Cockatrice.cockatrice.metainfo.xml -t /app/share/metainfo",
                 "for size in 64 128 256 512; do rsvg-convert -w $size -h $size -f png -o $size.png /app/share/icons/hicolor/scalable/apps/cockatrice.svg; install -Dm644 $size.png /app/share/icons/hicolor/${size}x${size}/apps/cockatrice.png; done"
+            ]
+        },
+        {
+            "name": "protobuf",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-Dprotobuf_BUILD_TESTS=OFF"
+            ],
+            "cleanup": [
+                "protoc",
+                "/bin",
+                "/doc",
+                "/lib/plugins"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/protocolbuffers/protobuf.git",
+                    "tag": "v36.2",
+                    "commit": "2c74169b34066ceb8ddb6b882fcb3fb32d737a55",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$"
+                    }
+                }
             ]
         }
     ]
