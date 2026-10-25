@@ -54,14 +54,12 @@
                 "-DBUILD_SHARED_LIBS:BOOL=OFF"
             ],
             "sources": [
-                {
-                    "type": "git",
-                    "url": "https://github.com/Cockatrice/Cockatrice.git",
-                    "tag": "2026-06-26-Release-3.0.2",
-                    "commit": "adfeb2234d14f040f2d73ba8ecab92e3dff4a5a8",
                     "x-checker-data": {
-                        "type": "git",
-                        "tag-pattern": "^([\\d-]+Release-[\\d.]+)$",
+                        "type": "json",
+                        "url": "https://api.github.com/repos/Cockatrice/Cockatrice/releases/latest",
+                        "tag-query": ".tag_name | select(test("^[0-9-]+Release-[0-9.]+$"))",
+                        "version-query": "$tag",
+                        "timestamp-query": ".published_at",
                         "release-url-template": "https://github.com/Cockatrice/Cockatrice/releases/tag/$version",
                         "is-main-source": true
                     }
