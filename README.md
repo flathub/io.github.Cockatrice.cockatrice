@@ -12,10 +12,6 @@
 > The version of the flatpak package is updated on new source releases via [flatpak-external-data-checker](https://github.com/flathub-infra/flatpak-external-data-checker) automatically.<br>
 > Checks following the `x-checker-data` definitions in the [app json](https://github.com/flathub/io.github.Cockatrice.cockatrice/blob/master/io.github.Cockatrice.cockatrice.json) are performed hourly.
 
-> [!IMPORTANT]
-> In case the <kbd>source</kbd> and <kbd>flathub</kbd> version do not match in the badge above, please send a PR and update the `tag` & `commit` value for the **sources** array for "cockatrice" in [cockatrice.json](https://github.com/flathub/io.github.Cockatrice.cockatrice/blob/master/io.github.Cockatrice.cockatrice.json#L57-L58) to bump the Flathub release accordingly!<br>
-> The `version` and `date` values for the **release** key in the manifest file ([metainfo.xml](https://github.com/flathub/io.github.Cockatrice.cockatrice/blob/master/io.github.Cockatrice.cockatrice.metainfo.xml#L8)) must be updated as well.
-
 <br>
 
   ➔ Resulting [Flathub package site for "Cockatrice"](https://flathub.org/apps/details/io.github.Cockatrice.cockatrice) with details and app download<br>
