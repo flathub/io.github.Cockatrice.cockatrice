@@ -62,7 +62,7 @@
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/Cockatrice/Cockatrice/releases/latest",
-                        "tag-query": ".tag_name | select(test('^[0-9-]+Release-[0-9.]+$'))",
+                        "tag-query": ".tag_name | select(test(\"^[0-9-]+Release-[0-9.]+$\"))",
                         "version-query": "$tag",
                         "timestamp-query": ".published_at",
                         "release-url-template": "https://github.com/Cockatrice/Cockatrice/releases/tag/$version",
