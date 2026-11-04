@@ -57,8 +57,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/Cockatrice/Cockatrice.git",
-                    "tag": "2026-06-26-Release-3.0.2",
-                    "commit": "adfeb2234d14f040f2d73ba8ecab92e3dff4a5a8",
+                    "tag": "2026-10-25-Release-3.1.2",
+                    "commit": "bbc7e462ff0e9fd5391a0626e6f46fc79223aad5",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/Cockatrice/Cockatrice/releases/latest",
